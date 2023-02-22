@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-two {
+    text-align: center;
+}
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+  }
+  
+  .random-info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 32px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+  }
+
+  .text {
+    max-width: 100px;
+    color: #1f2937;
+
+  }
