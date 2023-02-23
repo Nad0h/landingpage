@@ -1,7 +1,21 @@
 body {
     display: flex;
     flex-direction: column;
+    gap: 46px;
+    width: 960px;
+    margin: auto;
 }
+
+
+
+
+
+
+
+
+
+
+/* This section is about container #2 */
 
 .container-two {
     text-align: center;
@@ -29,5 +43,82 @@ body {
   .text {
     max-width: 100px;
     color: #1f2937;
-
   }
+
+  /* This section is about container three */
+
+  .container-three {
+    background-color: #e5e7eb; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 750px;
+    padding: 40px;
+    margin: 40px;
+  }
+
+ .thor{
+    display: flex;   
+    width: 750px;
+    justify-content: end;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+ }
+
+ /* This section is about section 4 */
+
+.container-four {
+    display: flex;
+    justify-content: center;  
+}
+
+.container-blue {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 750px;
+    padding: 40px;
+    margin: 40px;
+
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.title-four{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-container-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.button-four{
+    border-radius: 4px;
+    border-color:#e5e7eb;
+    background: #3882f6;
+    color:#e5e7eb;
+    font-size: 12px;
+    padding: 5px 24px;
+
+
+ 
+    
+}
