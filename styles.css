@@ -2,19 +2,95 @@ body {
     display: flex;
     flex-direction: column;
     gap: 46px;
-    width: 960px;
+    width: 1250px;
     margin: auto;
 }
 
+/* This section is about container #1 */
 
+.container-one{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 12px 120px;
+    gap: 20px;
+  
+ 
+}
 
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo-container{
+    text-align: center;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 12px;
+}
 
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+    padding: 12px;
+}
 
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 
+}
 
+li, .hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
 
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 40px;
+}
 
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    gap: 7px;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.button-hero-container{
+    display: flex;  
+}
+
+.hero-button{
+    border-radius: 4px;
+    border-color:#e5e7eb;
+    background: #3882f6;
+    color:#e5e7eb;
+    font-size: 12px;
+    padding: 5px 24px;
+}
+
+.right-container{
+    display: flex;
+    align-items: center;
+    background-color: #e5e7eb;
+    width: 500px;
+    justify-content: center;
+
+}
 /* This section is about container #2 */
 
 .container-two {
@@ -91,24 +167,22 @@ body {
 
 }
 
-.text-container{
+.text-container {
     display: flex;
     flex-direction: column;
     color: #e5e7eb;
 }
 
-.title-four{
+.title-four {
     font-size: 20px;
     font-weight: bold;
 }
 
-.button-container-four{
+.button-container-four {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 
 .button-four{
     border-radius: 4px;
@@ -117,8 +191,15 @@ body {
     color:#e5e7eb;
     font-size: 12px;
     padding: 5px 24px;
-
-
- 
-    
 }
+
+
+/* This section is about the footer */
+
+.footer-container{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 35px;
+}
+
